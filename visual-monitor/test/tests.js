@@ -72,8 +72,6 @@ describe('Visual monitor testing', function() {
             // Related article.
             '.quarterFeature'
           ],
-        remove: [],
-        hide: [],
         screenWidth: selectedCaps == 'chrome' ? [960] : undefined,
       }, resultsCallback)
       .call(done);
